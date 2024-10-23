@@ -1,18 +1,29 @@
-//
-//  Mystic.swift
-//  MyTennisApp
-//
-//  Created by Khanh Nguyen on 10/21/24.
-//
-
 import SwiftUI
 
 struct Mystic: View {
-    var body: some View {
-        Text("Hello, Mysitc")
-    }
+
+	 @State var textValue: String = ""
+
+	 var body: some View {
+			NavigationView {
+				 Form {
+						Section {
+							 Text("Hello, world!")
+									.padding()
+						} header: {
+							 Text("Description")
+						}
+						Section {
+							 TextField("Enter Amount", text: $textValue)  
+						} header: {
+							 Text("Step 1. Enter Amount")
+						}
+
+				 }
+			}
+	 }
 }
 
 #Preview {
-    Mystic()
+	 Mystic()
 }
