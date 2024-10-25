@@ -88,7 +88,6 @@
 		E2527DC32CC5F345005D3E63 /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				E2527DC92CC6EAAA005D3E63 /* Pages */,
 				E2527DC42CC5F36E005D3E63 /* SideMenu */,
 			);
 			path = Components;
@@ -137,6 +136,7 @@
 		E29793F92CC423CB00E63F8F /* MyTennisApp */ = {
 			isa = PBXGroup;
 			children = (
+				E2527DC92CC6EAAA005D3E63 /* Pages */,
 				E2527DC32CC5F345005D3E63 /* Components */,
 				E29793FA2CC423CB00E63F8F /* MyTennisAppApp.swift */,
 				E29793FC2CC423CB00E63F8F /* ContentView.swift */,
